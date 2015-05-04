@@ -60,7 +60,7 @@ def list_heroes(password = '')
 	end
 	hero_collection = []
 	puts "Here Are Your Heroes"
-	puts "-------------------- "xx
+	puts "-------------------- "
 	(0...hero_keys.length()).each do |i|
 		hero_collection.push({
 			hero_keys[i].to_sym => hero_values[i]
