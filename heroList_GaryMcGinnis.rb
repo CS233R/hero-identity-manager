@@ -66,15 +66,15 @@ class Heroes
   end
 
   def save_hero_list
-    @@heroes << {hero_name: @hero_name,
+    @@heroes << { hero_name: @hero_name,
                   identity: @hero_identity,
-                  weakness: @hero_weakness}
+                  weakness: @hero_weakness }
   end
 
   def print_hero_List
     puts '*******************'
     @@heroes.each do |hero|
-      puts hero[:hero_name]
+      puts hero[ :hero_name ]
     end
     puts '*******************'
   end
@@ -82,9 +82,9 @@ class Heroes
   def print_hero_list_all
     puts '*******************'
     @@heroes.each do |hero|
-      puts hero[:hero_name]
-      puts hero[:identity]
-      puts hero[:weakness]
+      puts hero[ :hero_name ]
+      puts hero[ :identity ]
+      puts hero[ :weakness ]
       puts '*******************'
     end
   end
